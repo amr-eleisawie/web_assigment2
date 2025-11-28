@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+        <img src="Task_Manager.png.png" 
+        alt="Task Manager" 
+        >
+    <h1>Task Manager</h1>
+
+    <button id="themeToggle">Toggle Theme</button>
+
+    <hr>
+
+    <h2>Add Task</h2>
+    <input type="text" id="title" placeholder="Task Title">
+    <br><br>
+
+    <textarea id="description" placeholder="Task Description"></textarea>
+    <br><br>
+
+    <select id="priority">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+    <br><br>
+
+    <button id="addTaskBtn">Add Task</button>
+
+    <hr>
+
+    <h2>Filter</h2>
+    <select id="filter">
+        <option value="All">All</option>
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+    </select>
+
+    <hr>
+
+    <h2>Tasks</h2>
+    <div id="taskList"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

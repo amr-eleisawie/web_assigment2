@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0078ff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fcc;
+}
+
+#themeToggle {
+    background: black;
+    margin-bottom: 15px;
+}
+
+#taskList {
+    margin-top: 15px;
+}
+
+.task {
+    background: #fafafa;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-left: 6px solid #0078ff;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.task button {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+}
+
+.delete {
+    background-color: red !important;
+}
+
+.delete:hover {
+    background-color: #c70000 !important;
+}
+
+.edit {
+    background-color: orange !important;
+}
+
+.edit:hover {
+    background-color: rgb(207, 134, 0) !important;
+}
+
+.priority-High {
+    border-left-color: red;
+}
+
+.priority-Medium {
+    border-left-color: orange;
+}
+
+.priority-Low {
+    border-left-color: green;
+}
+
+body.dark {
+    background-color: #222;
+    color: white;
+}
+
+body.dark .container {
+    background-color: #333;
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select {
+    background: #444;
+    color: white;
+    border-color: #666;
+}
+
+body.dark .task {
+    background: #444;
+    border-color: #666;
+}
